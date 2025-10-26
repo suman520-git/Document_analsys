@@ -1,0 +1,12 @@
+{"session_id": "test_ingestion_analysis", "session_path": "D:\\Document_analsys\\data\\document_analysis\\test_ingestion_analysis", "timestamp": "2025-10-26T12:42:50.236664Z", "level": "info", "event": "PDFHandler initialized"}
+{"file": "NIPS-2017-attention-is-all-you-need-Paper.pdf", "save_path": "D:\\Document_analsys\\data\\document_analysis\\test_ingestion_analysis\\NIPS-2017-attention-is-all-you-need-Paper.pdf", "session_id": "test_ingestion_analysis", "timestamp": "2025-10-26T12:42:50.236664Z", "level": "info", "event": "PDF saved successfully"}
+{"pdf_path": "D:\\Document_analsys\\data\\document_analysis\\test_ingestion_analysis\\NIPS-2017-attention-is-all-you-need-Paper.pdf", "session_id": "test_ingestion_analysis", "pages": 11, "timestamp": "2025-10-26T12:42:50.268340Z", "level": "info", "event": "PDF read successfully"}
+{"timestamp": "2025-10-26T12:42:50.280065Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-10-26T12:42:50.280065Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2025-10-26T12:42:50.280065Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_vP...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-10-26T12:42:50.280065Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T12:42:50.280065Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T12:42:50.280065Z", "level": "info", "event": "Loading LLM"}
+{"timestamp": "2025-10-26T12:42:50.300781Z", "level": "info", "event": "DocumentAnalyzer initialized successfully"}
+{"timestamp": "2025-10-26T12:42:50.302120Z", "level": "info", "event": "Meta-data analysis chain initialized"}
+{"keys": ["Summary", "Title", "Author", "DateCreated", "LastModifiedDate", "Publisher", "Language", "PageCount", "SentimentTone"], "timestamp": "2025-10-26T12:42:53.674159Z", "level": "info", "event": "Metadata extraction successful"}
