@@ -22,9 +22,9 @@ venv/
 # .idea/
 
 # # LangChain-related
-# faiss_index/
-# *.faiss
-# *.pkl
+faiss_index/
+*.faiss
+*.pkl
 
 # # Data & archive
 # # data/
